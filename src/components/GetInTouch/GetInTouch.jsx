@@ -5,11 +5,9 @@ export default function GetInTouch() {
                 <div className="mt-8 overflow-hidden">
                     <div className="grid grid-cols-1 md:grid-cols-2">
                         <div className="p-6 mr-2 bg-gray-100 sm:rounded-lg">
-                            <h1 className="text-3xl sm:text-4xl text-gray-800 font-extrabold tracking-tight">
-                                Get in touch: 
-                            </h1>
+                            
                             <p className="text-normal text-lg sm:text-xl font-medium text-gray-600 mt-2">
-                                Fill in the form to start a conversation
+                            Fill out the form below to connect with us!
                             </p>
 
                             <div className="flex items-center mt-8 text-gray-600">
@@ -35,9 +33,9 @@ export default function GetInTouch() {
                                         d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                                     />
                                 </svg>
-                                <div className="ml-4 text-md tracking-wide font-semibold w-40">
-                                    Acme Inc, Street, State, Postal Code
-                                </div>
+                                <div className="ml-4 text-sm tracking-wide font-semibold w-40">
+                                ABL Workspaces, Celebration Gardens, NH 8, next to Shiv Murti, Mahipalpur, New Delhi, Delhi 110037                
+            </div>
                             </div>
 
                             <div className="flex items-center mt-4 text-gray-600">
@@ -58,7 +56,7 @@ export default function GetInTouch() {
                                     />
                                 </svg>
                                 <div className="ml-4 text-md tracking-wide font-semibold w-40">
-                                    +44 1234567890
+                                +91 9540022555
                                 </div>
                             </div>
 
@@ -80,7 +78,7 @@ export default function GetInTouch() {
                                     />
                                 </svg>
                                 <div className="ml-4 text-md tracking-wide font-semibold w-40">
-                                    info@acme.org
+                                info@enerture.co.in  
                                 </div>
                             </div>
                         </div>
@@ -88,13 +86,13 @@ export default function GetInTouch() {
                         <form className="p-6 flex flex-col justify-center">
                             <div className="flex flex-col">
                                 <label for="name" className="hidden">
-                                    Full Name
+                                    Name
                                 </label>
                                 <input
                                     type="name"
                                     name="name"
                                     id="name"
-                                    placeholder="Full Name"
+                                    placeholder="Name"
                                     className="w-100 mt-2 py-3 px-3 rounded-lg bg-white border border-gray-400 text-gray-800 font-semibold focus:border-yellow-400 focus:outline-none"
                                 />
                             </div>
@@ -113,14 +111,26 @@ export default function GetInTouch() {
                             </div>
 
                             <div className="flex flex-col mt-2">
-                                <label for="tel" className="hidden">
-                                    Number
+                                <label for="subject" className="hidden">
+                                    Subject
                                 </label>
                                 <input
-                                    type="tel"
-                                    name="tel"
-                                    id="tel"
-                                    placeholder="Telephone Number"
+                                    type="subject"
+                                    name="subject"
+                                    id="subject"
+                                    placeholder="Subject"
+                                    className="w-100 mt-2 py-3 px-3 rounded-lg bg-white border border-gray-400 text-gray-800 font-semibold focus:border-yellow-400 focus:outline-none"
+                                />
+                            </div>
+                            <div className="flex flex-col">
+                                <label for="message" className="hidden">
+                                    Name
+                                </label>
+                                <input
+                                    type="message"
+                                    name="message"
+                                    id="message"
+                                    placeholder="Message"
                                     className="w-100 mt-2 py-3 px-3 rounded-lg bg-white border border-gray-400 text-gray-800 font-semibold focus:border-yellow-400 focus:outline-none"
                                 />
                             </div>
@@ -128,8 +138,9 @@ export default function GetInTouch() {
                             <button
                                 type="submit"
                                 className="md:w-32 bg-yellow-400 hover:bg-blue-dark text-white font-bold py-3 px-6 rounded-lg mt-3 hover:bg-yellow-200 transition ease-in-out duration-300"
+                                onClick={(e)=>e.preventDefault()}
                             >
-                                Submit
+                                Send Meesage
                             </button>
                         </form>
                     </div>

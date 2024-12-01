@@ -5,22 +5,21 @@ export default function About() {
               <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
                   <div className="md:5/12 lg:w-5/12">
                       <img
-                          src="/general.webp"
+                          src="/about-solarpanel.webp"
                           alt="image"
                       />
                   </div>
                   <div className="md:7/12 lg:w-6/12">
-                      <h2 className="text-2xl text-gray-900 font-bold md:text-4xl">
-                          About Us
+                      <h2 className="text-2xl text-yellow-400 font-bold md:text-4xl">
+                      “Renewable Energy - Key To A 
+                      <br />
+                      Sustainable World”
                       </h2>
                       <p className="mt-6 text-gray-600">
-                          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum omnis voluptatem
-                          accusantium nemo perspiciatis delectus atque autem! Voluptatum tenetur beatae unde
-                          aperiam, repellat expedita consequatur! Officiis id consequatur atque doloremque!
+                      Enerture is a team of young and dynamic teams working to disrupt the service industry to solve people’s and organizations’ renewable energy problems. We are one of the few companies offering end-to-end in-house capabilities across all aspects, including Design, Engineering, Procurement, Construction, Monitoring, Operation, and Maintenance.
                       </p>
                       <p className="mt-4 text-gray-600">
-                          Nobis minus voluptatibus pariatur dignissimos libero quaerat iure expedita at?
-                          Asperiores nemo possimus nesciunt dicta veniam aspernatur quam mollitia.
+                      We are the best solar company in India offering solar EPS maintenance, rooftop services, operation and maintenance, EV charging station provider, ground mount and rooftop maintenanc
                       </p>
                   </div>
               </div>
